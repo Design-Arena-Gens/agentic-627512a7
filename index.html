@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dev Tools Center ? Logo</title>
+    <meta name="description" content="Innovative yet simple logo for Dev Tools Center." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img alt="Dev Tools Center logo mark" src="/public/logo-mark.svg" width="36" height="36" />
+      <span class="brand">Dev Tools Center</span>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <img class="hero-logo" alt="Dev Tools Center wordmark" src="/public/logo.svg" />
+        <p class="tag">Innovative. Simple. Memorable.</p>
+        <div class="actions">
+          <a class="button primary" href="/public/logo.svg" download>Download SVG</a>
+          <a class="button" href="/public/logo-mark.svg" download>Download Mark</a>
+          <a class="button" href="/favicon.svg" download>Download Favicon</a>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="card light">
+          <div class="preview light"><img src="/public/logo-mark.svg" alt="Logo on light" /></div>
+          <h3>Light background</h3>
+          <p>Use the default mark on white or light neutrals.</p>
+        </div>
+        <div class="card dark">
+          <div class="preview dark"><img src="/public/logo-mark.svg" alt="Logo on dark" /></div>
+          <h3>Dark background</h3>
+          <p>Mark maintains contrast with gradient accent and dark glyphs.</p>
+        </div>
+        <div class="card tile">
+          <div class="preview tile">
+            <img src="/public/logo-mark.svg" alt="App icon tile" />
+          </div>
+          <h3>App icon</h3>
+          <p>Hex nut + center dot + angle brackets ? developer tools, centered.</p>
+        </div>
+        <div class="card wordmark">
+          <div class="preview wordmark">
+            <img src="/public/logo.svg" alt="Wordmark" />
+          </div>
+          <h3>Wordmark</h3>
+          <p>Bold, geometric sans. Accent on ?tools? for emphasis.</p>
+        </div>
+      </section>
+
+      <section class="usage">
+        <h2>Usage</h2>
+        <ul>
+          <li>Maintain clear space equal to the mark?s circle radius.</li>
+          <li>Do not rotate, skew, or recolor the gradient stops.</li>
+          <li>Minimum sizes: 24px (mark), 200px width (wordmark).</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">? <span id="year"></span> Dev Tools Center</footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear().toString();
+    </script>
+  </body>
+</html>

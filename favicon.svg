@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F80ED"/>
+      <stop offset="1" stop-color="#6C5CE7"/>
+    </linearGradient>
+  </defs>
+  <path d="M24 4l12 7v14l-12 7-12-7V11l12-7z" stroke="url(#accent)" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="24" cy="25" r="3" fill="url(#accent)"/>
+</svg>
